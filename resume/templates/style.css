@@ -1,0 +1,99 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    margin: 20px auto;
+    max-width: 960px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul, ol {
+    margin-top: 0;
+  }
+  
+  /* Header section */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Experience section */
+  .card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+  }
+  
+  /* Skills, Education, and Certifications section */
+  .skills, .education, .certifications {
+    margin-bottom: 20px;
+  }
+  
+  .skills h2, .education h2, .certifications h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Download Resume button */
+  .download-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .download-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer section */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
