@@ -21,23 +21,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <h1>Amol Bajpai</h1>
-        <h3>Python Developer</h3>
-        <p>Python Developer offering 5+ years of extensive experience and exceptional analytical and critical thinking skills. Delivers a proactive approach, great work ethic, and the ability to function well in fast-paced/deadline-driven team environments.</p>
+        <h1>{{name}}</h1>
+        <h3>{{profile_name}}</h3>
+        <p>{{career_objective}}</p>
         <div class="resume-section">
           <h2>Experience</h2>
-          <div class="card">
-            <div class="card-header">
-              <h3 class="mb-0">NatWest Group, Gurugram, HR</h3>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Software Engineer</h5>
-              <p class="card-text">June 2023 - Present</p>
-              <ul>
-                <!-- <li>Experience details here</li> -->
-              </ul>
-            </div>
-          </div>
 
           <div class="card mt-4">
             <div class="card-header">
@@ -98,25 +86,16 @@
 
       <div class="col-md-4">
         <div class="sticky-top">
-          <span><strong>Location:</strong> Noida Sector 44, UP, Pin 201301</span>
-          <span><strong>Mobile:</strong> 7078881115</span>
-          <span style="display: block;"><strong>Email:</strong> amolbajpai10@gmail.com</span>
-          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amol-bajpai-b7466222a/">Amol Bajpai</a></p>
+          <p><strong>Location:</strong> Noida Sector 44, UP, Pin 201301</p>
+          <p><strong>Mobile:</strong> 7078881115</p>
+          <p style="display: block;"><strong>Email:</strong> amolbajpai10@gmail.com</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amol-bajpai-b7466222a/">https://www.linkedin.com/in/amol-bajpai-b7466222a/</a></p>
   
           <h2>Skills</h2>
-          <ul>
-            <li>Python, OOPs</li>
-            <li>MySQL</li>
-            <li>AWS</li>
-            <li>Django, JavaScript</li>
-            <li>HTML, CSS</li>
-            <li>JQuery, Pandas</li>
-            <li>Numpy, Matplotlib</li>
-            <li>Openpyxl, API</li>
-            <li>Regular Expression</li>
-            <li>Git, SVN, Jira</li>
-            <li>Agile Methodology</li>
-            <li>Data Structure and Algorithms</li>
+          <ul> 
+            {% for skill in skills %}
+              <li>{{ skill.name }}</li>
+            {% endfor %}        
           </ul>
 
           <h2>Education</h2>
